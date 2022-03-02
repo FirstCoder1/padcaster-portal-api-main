@@ -1,0 +1,10 @@
+[flake8]
+exclude =
+  .tox,
+  .git,
+  migrations,
+  __pycache__,
+  manage.py,
+  settings.py,
+  api
+max-line-length = 120

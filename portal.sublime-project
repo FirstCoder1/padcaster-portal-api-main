@@ -1,0 +1,24 @@
+{
+    "folders":
+    [
+        {
+            "folder_exclude_patterns": [
+                ".venv",
+                ".vscode",
+                "__pycache__"
+            ],
+            "file_exclude_patterns": [
+                "*.code-workspace",
+                "*.sqlite*"
+            ],
+            "path": "."
+        }
+    ],
+    "settings": {
+        "detect_indentation": false,
+        "tab_size": 4,
+        "translate_tabs_to_spaces": true,
+        "rulers": [80],
+        "SublimeLinter.linters.pylint.python": "${project_path}/.venv/bin/python"
+    }
+}

@@ -1,0 +1,24 @@
+[MASTER]
+ignore=
+    .git,
+    portal/api/migrations
+extension-pkg-allow-list=
+    math
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    too-many-ancestors,
+    too-few-public-methods,
+    invalid-name,
+    no-member,
+    arguments-renamed,
+    unused-argument,
+    invalid-str-returned,
+    protected-access,
+    no-self-use,
+    broad-except,
+    pointless-string-statement,
+    abstract-method,

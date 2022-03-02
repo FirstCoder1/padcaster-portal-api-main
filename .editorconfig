@@ -1,0 +1,58 @@
+# http://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+line_length = 120
+max_line_length = 120
+
+[*.{js,py}]
+quote_type = single
+spaces_around_operators = true
+spaces_around_brackets = none
+
+[*.{css,js,sh,yml}]
+indent_size = 2
+
+[*.js]
+continuation_indent_size = 4
+curly_bracket_next_line = false
+indent_brace_style = K&R
+
+[*.json]
+indent_size = 4
+continuation_indent_size = 8
+curly_bracket_next_line = false
+indent_brace_style = K&R
+spaces_around_brackets = inside
+spaces_around_operators = true
+
+[*.{html,ini,py,rst}]
+indent_size = 4
+
+[*.py]
+line_length=120
+known_first_party=ocarddb
+known_third_party=django,pgcrypto_expressions,timezone_field
+default_section=THIRDPARTY
+multi_line_output=4
+atomic=true
+skip=.tox
+skip_glob=*migrations*
+lines_after_imports=2
+max_line_length = 120
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.sh]
+max_line_length = 120
+
+[{Makefile,*.xml}]
+indent_style = tab
+tab_width = 4
